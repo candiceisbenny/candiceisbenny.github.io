@@ -1,0 +1,162 @@
+/* Logo */
+#logo  {
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Set the default font for the entire body */
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Customize the font for headings */
+h1, h2 {
+    font-family: 'Noto Serif SC', serif;
+}
+
+h1 {
+    color: ivory;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+h2 {
+    color: black;
+    font-size: 28px; /* Added missing semicolon */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hosts {
+      font-size: large;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: left;
+      margin-left: -250px;
+}
+
+.flavour {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin-right: 260px;
+}
+
+.grid-item {
+    display: inline-flex; 
+    margin: 0 auto; 
+    width: 200px; 
+    height: auto; 
+    border-radius: 10%;
+    align-items: center;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Customize links */
+a {
+    text-decoration: none;
+    color: #220703;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for header bits */
+nav ul {
+    list-style-type: none;
+    padding: 10px; /* Reset list padding for clean layout */
+    
+}
+
+.navbutton {
+    border-radius: 20px;
+    font-size: small;
+    border: 1px solid #220703;
+    padding: 12px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Header styling */
+body > header {
+    background-color: rgba(255, 95, 95, 0.902);
+    display: flex;
+    align-items: center; /* Center content vertically */
+    height: 100px;
+    font-style: oblique;
+    padding: 0 30px; /* Added padding for better spacing */
+}
+
+
+.dresscode {
+    background-color: lightcoral;
+    font-size: larger;
+}
+
+.dinner-image {
+    display: block; 
+    margin: 0 auto; 
+    width: 500px; 
+    height: auto; 
+    border-radius: 10%;
+    
+}
+
+body > main > article {
+    width: 60%;
+    margin: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: lightcoral; /* Change this to your desired color */
+    color: white; /* Optional: Change text color for better contrast */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Add space above the footer */
+}
+
+footer h2 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+footer a {
+    color: whitesmoke; /* Change to a color that contrasts well with the background */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#footer-container {
+    margin-top: 10px;
+}
+
+#footer-container ul {
+    list-style: none; 
+    padding: 0;
+}
+
+#footer-container li {
+    display: inline;
+    margin-right: 50px; /* Space between list items */
+}
+
+
+
+
